@@ -94,15 +94,15 @@ Predict emotions from new audio files:
 **Model Architecture**
 The CNN model includes:
 
-Input Layer: Processes MFCCs or Mel spectrogram features.
-
-Convolutional Layers: Extract spatial features from spectrograms.
-
-Pooling Layers: Reduce spatial dimensions for computational efficiency.
-
-Dense Layers: Perform classification into emotion categories.
-
-Output Layer: Provides probabilities for each emotion class.
+   Input Layer: Processes MFCCs or Mel spectrogram features.
+   
+   Convolutional Layers: Extract spatial features from spectrograms.
+   
+   Pooling Layers: Reduce spatial dimensions for computational efficiency.
+   
+   Dense Layers: Perform classification into emotion categories.
+   
+   Output Layer: Provides probabilities for each emotion class.
 
 **Results**
 
@@ -114,19 +114,19 @@ Output Layer: Provides probabilities for each emotion class.
     
 **Confusion Matrix**
 
-Visualizes the model's performance across different emotion categories.
+   Visualizes the model's performance across different emotion categories.
 
 **Visualization**
 
-Spectrograms: Display the frequency distribution of audio signals.
-
-Training Curves: Plot accuracy and loss metrics over epochs.
+   Spectrograms: Display the frequency distribution of audio signals.
+   
+   Training Curves: Plot accuracy and loss metrics over epochs.
 
 **Challenges and Solutions**
 
-1. Imbalanced Dataset: Addressed by augmenting data using pitch shifting and time stretching.
-   
-2. Noise in Audio Files: Applied preprocessing techniques like filtering and normalization.
+   1. Imbalanced Dataset: Addressed by augmenting data using pitch shifting and time stretching.
+      
+   2. Noise in Audio Files: Applied preprocessing techniques like filtering and normalization.
 
 **Future Work**
 
@@ -138,8 +138,8 @@ Training Curves: Plot accuracy and loss metrics over epochs.
 
 **References**
 
-1. Librosa Documentation
-   
-2. TensorFlow Documentation
-   
-3. RAVDESS Dataset
+   1. Librosa Documentation
+      
+   2. TensorFlow Documentation
+      
+   3. RAVDESS Dataset
