@@ -92,6 +92,7 @@ Predict emotions from new audio files:
     print(f'Predicted Emotion: {emotion}')
 
 **Model Architecture**
+
 The CNN model includes:
 
    Input Layer: Processes MFCCs or Mel spectrogram features.
